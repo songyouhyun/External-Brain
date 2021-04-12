@@ -17,5 +17,6 @@
 ### 웹 기본 개념
 - [Parsing이란 무엇인가?](./Parsing/Parsing.md)<br>
 - [DOM이란 무엇인가?](./DOM/DOM.md)<br>
+- [URL과 URI의 차이점을 아시나요?](./URI/uri.md)
 ### 용어 정리
 - [공부하다가 모르는 단어들](./ETC/ETC.md)
