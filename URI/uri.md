@@ -12,8 +12,8 @@ e.g.) `http://www.naver.com`
 
 ### 🎯 URI과 URL 구분
 URL이란건 URI의 하위개념이다.<br>
+
 더 정확히 말하자면
-`http://www.naver.com/?id='송유현'`<br>
-이 URI에서 `http://www.naver.com` 부분이 URL이다.
+`http://www.naver.com/?id='송유현'`, 이 URI에서 `http://www.naver.com` 부분이 URL이다.
 <br>
 URI는 규약이고, URL은 규약에 대한 형태라고 생각하면 된다.
