@@ -1,12 +1,12 @@
 # URI vs URL ?
 
 ### 🎯 URI이란?
-> Uniform Resource Identifier의 약자로, 네트워크 상에 존재하는 자원을 구분하는 **식별자**를 말한다.<br>
+> ***Uniform Resource Identifier***의 약자로, 네트워크 상에 존재하는 자원을 구분하는 **식별자**를 말한다.<br>
 e.g.) `http://www.naver.com/?id='송유현'`
 
 
 ### 🎯 URL이란?
-> Uniform Resource Locator의 약자로, 네트워크 상에 존재하는 자원의 **위치**이다.<br>
+> ***Uniform Resource Locator***의 약자로, 네트워크 상에 존재하는 자원의 **위치**이다.<br>
 e.g.) `http://www.naver.com`
 
 
