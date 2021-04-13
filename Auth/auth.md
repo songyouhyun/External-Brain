@@ -1,9 +1,9 @@
-# 인증과 인가란?
+# 🍎 인증과 인가란?
 <div align="center">
     <img src="auth.png">
 </div>
 
-## 🍎 인증(Authentication) & 인가(Authorization)
+## 인증(Authentication) & 인가(Authorization)
 인증과 인가는 API에서 가장 많이 구현되는 기능 중 하나
 
 ---
