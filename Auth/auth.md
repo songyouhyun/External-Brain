@@ -14,15 +14,10 @@
 
 #### 📍 로그인 절차
 1. 유저 Id와 Password 생성
-<br>
 1. 유저 Password 암호화 후 DB에 저장
-<br>
 1. 유저가 입력한 Password 암호화 후 암호화 돼서 DB에 저장된 유저 Password와 일치여부 비교
-<br>
 1. 일치하면 로그인 성공
-<br>
 1. 로그인 성공 후 access token을 클라이언트에게 전송
-<br>
 1. 로그인 성공 후에는 request에 access token을 첨부해서 서버에 전송함으로써 매번 로그인 할 필요가 없도록 한다.
 <br>
 #### 📍 유저 Password 암호화
