@@ -1,6 +1,6 @@
 # 🍎 인증과 인가란?
 <div align="center">
-    <img src="auth.png">
+    <img src="./img/auth.png">
 </div>
 
 ## 인증(Authentication) & 인가(Authorization)
