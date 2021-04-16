@@ -18,7 +18,7 @@ C, C++, C#, Go, Java, PHP, Perl, Python, Ruby등의 언어를 지원한다.
 
 #### 📍 보완점
 * **Salting**
-    실제 정보 이외에 추가적으로 무작위 데이터를 더해서 해시 값을 계산하는 방법.<br><br> [salt]()로 인해 해시값이 달라지기 때문에, rainbow attack 같이 미리 해시 값을 계산해 하는 공격을 무효화 시킨다. salt 자체는 비밀이 아니고 해시 값을 바꾸는데 목적이 있다. salt는 비밀번호마다 모두 다르기 때문에 같은 비밀번호라도 해시값이 달라지게 된다. 이 때문에 공격자는 해시값 데이터베이스를 만들 수 없다.
+    실제 정보 이외에 추가적으로 무작위 데이터를 더해서 해시 값을 계산하는 방법.<br><br> [salt](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#salt%EB%9E%80)로 인해 해시값이 달라지기 때문에, rainbow attack 같이 미리 해시 값을 계산해 하는 공격을 무효화 시킨다. [salt](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#salt%EB%9E%80) 자체는 비밀이 아니고 해시 값을 바꾸는데 목적이 있다. [salt](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#salt%EB%9E%80)는 비밀번호마다 모두 다르기 때문에 같은 비밀번호라도 해시값이 달라지게 된다. 이 때문에 공격자는 해시값 데이터베이스를 만들 수 없다.
 
     <div align="center">
         <img src="./img/salt.png">
