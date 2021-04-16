@@ -5,7 +5,7 @@
 C, C++, C#, Go, Java, PHP, Perl, Python, Ruby등의 언어를 지원한다.
 
 ### 🧩  단방향 해시 함수
-단방향 해시 함수는 수학적인 연산을 통해 원본 메세지를 변환하여 암호화된 메세지인 digest를 생성한다. 이 방식으로 암호화된 digest는 다시 평문으로 볼 수 없다.
+단방향 해시 함수는 수학적인 연산을 통해 원본 메세지를 변환하여 암호화된 메세지인 **digest**를 생성한다. 이 방식으로 암호화된 digest는 다시 평문으로 볼 수 없다.
 
 하지만 위와같은 단방향 해시 알고리즘은 다음과 같은 문제점이 있다.
 
@@ -32,16 +32,17 @@ C, C++, C#, Go, Java, PHP, Perl, Python, Ruby등의 언어를 지원한다.
 > **salting**과 **키 스트레칭**을 구현한 해시 함수 중 대표적인 함수
 bcrypt는 처음부터 비밀번호 단방향 암호화를 하기 위해 만들어진 해쉬함수이다.
 
+#### 📍 예시
 <div align="center">
     <img src="./img/Bcrypt.png">
+
+`위 그림은 Bcrypt로 해시화 시킨 digest이다.`
 </div>
 
-bcrypt의 값은 4부분으로 나눠진다.
-i) **Algorithm** : 알고리즘 식별자. '$2a$'는bcrypt를 뜻한다
-ii) **Cost factor** : 키 스트레칭한 횟수. 2^n으로 위의 경우 2^10=1024이다
-iii) **Salt** : 128비트 솔트, 22자 base64로 인코딩
-iv) **Hash** : salting과 키 스트레칭 후 해시 값
+*  **Algorithm** : 알고리즘 식별자. '$2a$'는bcrypt를 뜻한다<br>
+*  **Cost factor** : 키 스트레칭한 횟수. 2^n으로 위의 경우 2^10=1024이다<br>
+*  **Salt** : 128비트 솔트, 22자 base64로 인코딩<br>
+*  **Hash** : salting과 키 스트레칭 후 해시 값<br>
 
-bcrypt에서 검증
+#### 📍 bcrypt 검증 방법
 비밀번호가 동일한지 검증하기 위해 입력된 비밀번호에 salting, 키 스트레칭을 해서 저장된 bcrypt 문자열과 비교한다.
-
