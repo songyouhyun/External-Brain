@@ -135,12 +135,12 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
 
 6. 파일확장자는 URI에 포함하지 않는다.
     * REST API에서는 메시지 바디 내용의 포맷을 나타내기 위한 파일 확장자를 URI 안에 포함시키지 않는다.
-    * Accept header를 사용한다.
+    * Accept header를 사용한다.<br>
     e.g.) `http://restapi.example.com/members/soccer/345/photo.jpg` (X)<br>
     e.g.) `GET / members/soccer/345/photo HTTP/1.1 Host: restapi.example.com Accept: image/jpg` (O)
 <br>
 
 7. 리소스 간에는 연관 관계가 있는 경우
-    * /리소스명/리소스 ID/관계가 있는 다른 리소스명
+    * /리소스명/리소스 ID/관계가 있는 다른 리소스명<br>
     e.g.) `GET : /users/{userid}/devices` (일반적으로 소유 ‘has’의 관계를 표현할 때)
 <br>
