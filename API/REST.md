@@ -112,7 +112,7 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
     <br>
 
 ### 📍 REST API 설계 중심 규칙
-1. 슬래시 구분자(/ )는 계층 관계를 나타내는데 사용한다.
+1. 슬래시 구분자(/ )는 계층 관계를 나타내는데 사용한다.<br>
     e.g.) `http://restapi.example.com/houses/apartments`
 2. URI 마지막 문자로 슬래시(/ )를 포함하지 않는다.
     * URI에 포함되는 모든 글자는 리소스의 유일한 식별자로 사용되어야 하며 URI가 다르다는 것은 리소스가 다르다는 것이고, 역으로 리소스가 다르면 URI도 달라져야 한다.
@@ -136,7 +136,7 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
 6. 파일확장자는 URI에 포함하지 않는다.
     * REST API에서는 메시지 바디 내용의 포맷을 나타내기 위한 파일 확장자를 URI 안에 포함시키지 않는다.
     * Accept header를 사용한다.
-    e.g.) `http://restapi.example.com/members/soccer/345/photo.jpg` (X)
+    e.g.) `http://restapi.example.com/members/soccer/345/photo.jpg` (X)<br>
     e.g.) `GET / members/soccer/345/photo HTTP/1.1 Host: restapi.example.com Accept: image/jpg` (O)
 <br>
 
