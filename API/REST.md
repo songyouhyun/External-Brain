@@ -10,24 +10,28 @@
 
 <br>
 
-여기서 **자원**은 해당 소프트웨어가 관리하는 모든 것을 의미하며, 뭐 예를 들면 DB 안에 들어가 있는 데이터 하나하나, 이미지 하나하나 등을 의미할 수 있겠다.<br>
+여기서 **자원**은 해당 소프트웨어가 관리하는 모든 것을 의미하며,<br>
+뭐 예를 들면 DB 안에 들어가 있는 데이터 하나하나, 이미지 하나하나 등을 의미할 수 있겠다.<br><br>
 그리고 **자원의 상태**를 주고 받을 때, HTTP 프로토콜을 이용하니 우리(클라이언트)가 웹을 이용하며 자원을 **요청**(Request)하면 서버(Server)에서 자원을 **전달**(Response)해준다.<br>
 `보통 JSON 형태나 XML 형태를 이용하여 자원의 상태를 전달하게 된다.`
 <br><br>
 추가적으로 REST는 [**ROP**]()(Resource Oriented Architecture)다.<br>
 자원 지향 설계라고하는데 [**OOP**](),[**AOP**]()와 같이 프로그래밍 기법이 있다면, 이는 설계 기법중 하나라고 생각할 수있다.<br>
-간단하게 **자원들을 HTTP Method으로 처리하는 기법**이다. 그렇다면 이 때 **어떤 방법**(Method)으로 자원들을 주고받을까?<br>
+간단하게 **자원들을 HTTP Method으로 처리하는 기법**이다. 아래 4가지 방법을 기본으로 하여 자원들을 주고받는다.<br>
 
 <div align="center">
     <img src = "http_method.png">
 </div>
-이 4가지 방법을 기본으로 하여 자원들을 주고받는다.<br>
+<br>
+
+
 
 ### 📍 REST 구성
 > * 자원 (Resource) - URL
 > * 행위 (Verb) - Http method
 > * 표현 (Representations)
 
+<br><br>
 ### 📍 REST의 특징
 API가 REST의 조건에 충족하게 되면 REST한 API, 즉 REST API가 되게 된다.<br>
 API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
@@ -102,14 +106,17 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
     * URI에 HTTP Method가 들어가면 안된다.
     e.g.) `GET /members/delete/1` 👉 `DELETE /members/1`
     <br>
+    
     * URI에 행위에 대한 동사 표현이 들어가면 안된다.(즉, CRUD 기능을 나타내는 것은 URI에 사용하지 않는다.)
     e.g.) `GET /members/show/1` 👉 `GET /members/1`
     e.g.) `GET /members/insert/2` 👉 `POST /members/2`
     <br>
+    
     * 경로 부분 중 변하는 부분은 유일한 값으로 대체한다.(즉, :id는 하나의 특정 resource를 나타내는 고유값이다.)
     e.g.) student를 생성하는 route: `POST /students`
     e.g.) id=12인 student를 삭제하는 route: `DELETE /students/12`
     <br>
+<br>
 
 ### 📍 REST API 설계 중심 규칙
 1. **슬래시 구분자(/ )는 계층 관계를 나타내는데 사용한다.**<br>
