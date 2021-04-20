@@ -22,16 +22,16 @@
 <div align="center">
     <img src = "http_method.png">
 </div>
+
 <br>
-
-
 
 ### 📍 REST 구성
 > * 자원 (Resource) - URL
 > * 행위 (Verb) - Http method
 > * 표현 (Representations)
 
-<br><br>
+<br>
+
 ### 📍 REST의 특징
 API가 REST의 조건에 충족하게 되면 REST한 API, 즉 REST API가 되게 된다.<br>
 API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
