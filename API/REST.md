@@ -98,22 +98,22 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
     * resource는 동사보다는 명사를, 대문자보다는 소문자를 사용한다.
     * resource의 도큐먼트 이름으로는 단수 명사를 사용해야 한다.
     * resource의 컬렉션 이름으로는 복수 명사를 사용해야 한다.
-    * resource의 스토어 이름으로는 복수 명사를 사용해야 한다.
+    * resource의 스토어 이름으로는 복수 명사를 사용해야 한다.<br>
     e.g.) `GET /Member/1` 👉 `GET /members/1`
 <br>
 
 2. 자원에 대한 행위는 **HTTP Method**(GET, POST, PUT, DELETE)로 표현한다.
-    * URI에 HTTP Method가 들어가면 안된다.
+    * URI에 HTTP Method가 들어가면 안된다.<br>
     e.g.) `GET /members/delete/1` 👉 `DELETE /members/1`
     <br>
     
-    * URI에 행위에 대한 동사 표현이 들어가면 안된다.(즉, CRUD 기능을 나타내는 것은 URI에 사용하지 않는다.)
-    e.g.) `GET /members/show/1` 👉 `GET /members/1`
+    * URI에 행위에 대한 동사 표현이 들어가면 안된다.(즉, CRUD 기능을 나타내는 것은 URI에 사용하지 않는다.)<br>
+    e.g.) `GET /members/show/1` 👉 `GET /members/1`<br>
     e.g.) `GET /members/insert/2` 👉 `POST /members/2`
     <br>
     
-    * 경로 부분 중 변하는 부분은 유일한 값으로 대체한다.(즉, :id는 하나의 특정 resource를 나타내는 고유값이다.)
-    e.g.) student를 생성하는 route: `POST /students`
+    * 경로 부분 중 변하는 부분은 유일한 값으로 대체한다.(즉, :id는 하나의 특정 resource를 나타내는 고유값이다.)<br>
+    e.g.) student를 생성하는 route: `POST /students`<br>
     e.g.) id=12인 student를 삭제하는 route: `DELETE /students/12`
     <br>
 <br>
@@ -125,7 +125,7 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
 
 2. **URI 마지막 문자로 슬래시(/ )를 포함하지 않는다.**
     * URI에 포함되는 모든 글자는 리소스의 유일한 식별자로 사용되어야 하며 URI가 다르다는 것은 리소스가 다르다는 것이고, 역으로 리소스가 다르면 URI도 달라져야 한다.
-    * REST API는 분명한 URI를 만들어 통신을 해야 하기 때문에 혼동을 주지 않도록 URI 경로의 마지막에는 슬래시(/)를 사용하지 않는다.
+    * REST API는 분명한 URI를 만들어 통신을 해야 하기 때문에 혼동을 주지 않도록 URI 경로의 마지막에는 슬래시(/)를 사용하지 않는다.<br>
     e.g.) `http://restapi.example.com/houses/apartments/` (X)
 <br>
 
