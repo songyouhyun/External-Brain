@@ -83,7 +83,7 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
 ## 🌈 REST API
 > ***RESTful한 API***, 즉 **REST 기반으로 서비스 [API](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#apiapplication-programming-interface%EB%9E%80)를 구현한 것**
 
-최근 [OpenAPI](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#OpenAPI란), [마이크로 서비스](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#마이크로-서비스란) 등을 제공하는 업체 대부분은 REST API를 제공한다.
+최근 [OpenAPI](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#openapi%EB%9E%80), [마이크로 서비스](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#마이크로-서비스란) 등을 제공하는 업체 대부분은 REST API를 제공한다.
 
 ### 📍 REST API 설계 기본 규칙
 > * 도큐먼트 : 객체 인스턴스나 데이터베이스 레코드와 유사한 개념
