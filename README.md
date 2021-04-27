@@ -19,7 +19,9 @@
 - [Parsing이란 무엇인가?](./Parsing/Parsing.md)<br>
 - [DOM이란 무엇인가?](./DOM/DOM.md)<br>
 - [URL과 URI의 차이점을 아시나요?](./URI/uri.md)
-- [인증과 인가란?](./Auth/auth.md)
+- [인증과 인가란?](./Auth/auth.md)<br>
+    - [Bcrypt](./Auth/Bcrypt.md)<br>
+    - [JWT](./Auth/JWT.md)<br>
 - [REST API가 뭐에요?](./API/REST.md)
 ### 용어 정리
 - [공부하다가 모르는 단어들](./ETC/ETC.md)
