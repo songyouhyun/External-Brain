@@ -13,8 +13,8 @@
 - [브라우저와 동작원리](./Browser/Browser.md)<br>
 - [호스팅이란 무엇일까요?](./Hosting/hosting.md)<br>
 ### 동기와 비동기
-- [비동기 프로그래밍이 뭔가요?](./Async/Async.md)<br>
 - [Callback 함수란 무엇인가?](./Callback/callback.md)<br>
+    - [비동기 프로그래밍이 뭔가요?](./Async/Async.md)<br>
 ### 웹 기본 개념
 - [Parsing이란 무엇인가?](./Parsing/Parsing.md)<br>
 - [DOM이란 무엇인가?](./DOM/DOM.md)<br>
