@@ -15,8 +15,7 @@
 8. **자료 저장소** - 이 부분은 자료를 저장하는 계층이다. 쿠키를 저장하는 것과 같이 모든 종류의 자원을 하드 디스크에 저장할 필요가 있다.<br>
   HTML5 명세에는 브라우저가 지원하는 '웹 데이터 베이스'가 정의되어 있다.
 <div align="center">
-
-  ![image](https://user-images.githubusercontent.com/68471917/113722669-9b4f8580-972b-11eb-8373-b8cfc07fafdb.png)<br>
+  <img src="./img/Browser.png"><br>
   `크롬은 대부분의 브라우저와 달리 각 탭마다 별도의 렌더링 엔진 인스턴스를 유지하는 것이 주목할만하다.`<br>
   `각 탭은 독립된 프로세스로 처리된다.`
 </div>
@@ -32,19 +31,18 @@
 #### 📍동작 과정
 `HTML 문서를 파싱` > `브라우저 화면에 랜더링하기위해 다루기 쉬운 구조로 바꿈` > `css파일 파싱` > `렌더트리 구축` > `렌더트리 배치` > `렌더트리 그리기`<br>
 <div align="center">
-  
-  ![image](https://user-images.githubusercontent.com/68471917/113795517-121a6c00-9788-11eb-8193-8c7729a6acc1.png)
+  <img src="./img/Dom_process.png">
 </div>
 
 렌더링 엔진은 HTML 문서를 파싱하고 "**콘텐츠 트리**" 내부에서 태그를 [DOM](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction) 노드로 변환한다.<br>
-그 다음 외부 CSS 파일과 함께 포함된 스타일 요소도 파싱한다. 스타일 정보와 HTML 표시 규칙은 "**렌더 트리**"라고 부르는 또 다른 [트리](https://github.com/songyouhyun/TIL/blob/main/ETC/ETC.md#%ED%8A%B8%EB%A6%ACtree%EB%9E%80)를 생성한다.<br><br>
+그 다음 외부 CSS 파일과 함께 포함된 스타일 요소도 파싱한다. 스타일 정보와 HTML 표시 규칙은 "**렌더 트리**"라고 부르는 또 다른 [트리](../../ETC/ETC.md#트리(Tree)란?)를 생성한다.<br><br>
 렌더 트리는 색상 또는 면적과 같은 시각적 속성이 있는 사각형을 포함하고 있는데 정해진 순서대로 화면에 표시된다.<br><br>
 렌더 트리 생성이 끝나면 배치가 시작되는데 이것은 각 노드가 화면의 정확한 위치에 표시되는 것을 의미한다. 다음은 UI 백엔드에서 렌더 트리의 각 노드를 가로지르며 형상을 만들어 내는 그리기 과정이다.<br><br>
 
 일련의 과정들이 점진적으로 진행된다는 것을 아는 것이 중요하다. 렌더링 엔진은 좀 더 나은 사용자 경험을 위해 가능하면 빠르게 내용을 표시하는데 모든 HTML을 파싱할 때까지 기다리지 않고 배치와 그리기 과정을 시작한다. 네트워크로부터 나머지 내용이 전송되기를 기다리는 동시에 받은 내용의 일부를 먼저 화면에 표시하는 것이다.<br>
 
 <div align="center">
-  
-  ![image](https://user-images.githubusercontent.com/68471917/113799463-164a8780-9790-11eb-9bba-27dc4296a86b.png)
+  <img src="./img/Webkit_process.png">
+
   <br>`다음은 '웹킷'의 동작과정이다.`
 </div>

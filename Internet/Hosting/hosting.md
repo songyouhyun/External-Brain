@@ -7,7 +7,7 @@ PC 서버로 웹 사이트를 운영하려면 24시간 365일 켜야 하나 현�
 ## 🦊 Hosting의 종류
 ### 📍 웹 호스팅
 <div align="center">
-<img src="Web_hosting.jpeg" height="430" width="530">
+    <img src="./img/Web_hosting.jpeg" height="430" width="530">
 </div>
 
 * 웹호스팅은 하나의 서버장비를 여러명이 공유하여 사용하는 것으로, 따라서 가격도 저렴하고 대중적으로 가장 많이 사용되는 호스팅이다.
@@ -16,7 +16,7 @@ PC 서버로 웹 사이트를 운영하려면 24시간 365일 켜야 하나 현�
 
 ### 📍 서버 호스팅
 <div align="center">
-<img src="Server_hosting.jpeg" height="430" width="430">
+<img src="./img/Server_hosting.jpeg" height="430" width="430">
 </div>
 
 <br>
@@ -27,7 +27,7 @@ PC 서버로 웹 사이트를 운영하려면 24시간 365일 켜야 하나 현�
 
 ### 📍 클라우드 호스팅
 <div align="center">
-<img src="Cloud_hosting.jpeg" height="430" width="430">
+<img src="./img/Cloud_hosting.jpeg" height="430" width="430">
 </div>
 
 <br>

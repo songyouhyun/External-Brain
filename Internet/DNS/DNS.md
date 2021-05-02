@@ -23,7 +23,9 @@
 
 
 ## 🎋 Domain 구조
-![image](https://user-images.githubusercontent.com/68471917/112985477-34662580-919b-11eb-8f7c-260114946fea.png)
+<div align="center">
+    <img src="./img/Domain_structure.png">
+</div>
 
 - 인터넷상에서 사용되는 도메인은 전 세계적을 고유하게 존재하는 이름으로 해야함
 - 정해진 규칙 및 체계에 따라야 하며, 임의로 변경되거나 생성될 수 없음
@@ -32,7 +34,10 @@
 - 도메인은 **일반최상위도메인(gTLD: Generic Top Level Domain)** 과 **국가최상위도메인(ccTLD: Country Code Top Level Domain)** 로 구분할 수 있으며 여기서 일반최상위도메인은 다시 스폰서도메인(Sponsored TLD)과 언스폰서도메인(Unsponsored TLD)으로 구분됩니다.<br>
 
 # 🧨 DNS 동작 원리
-![image](https://user-images.githubusercontent.com/68471917/113000889-37691200-91ab-11eb-9aa2-1f61ec7ecdde.png)
+<div align="center">
+    <img src="./img/DNS.png">
+</div>
+
 1. 위의 그림과 같이 PC 브라우저에서 www.naver.com 을 입력한다. 그러면 PC는 미리 설정되어 있는 DNS (단말에 설정되어 있는 이 DNS를 Local DNS라 부름, 위에서는 203.248.252.2) 에게 "www.naver.com 이라는 hostname" 에 대한 IP 주소를 요청한다.
 
 2. Local DNS 에는 "www.naver.com 의 IP 주소"가 있을 수도 없을 수도 있다. 만약 있다면 Local DNS 가 바로 PC에 IP 주소를 주고 끝난다. 하지만 본 설명에서는 Local DNS에 "www.naver.com 의 IP 주소"가 없다고 가정 한다.

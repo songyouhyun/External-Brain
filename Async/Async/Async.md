@@ -6,7 +6,9 @@
 이 방식에서는 <u>***동기식 처리 모델*** 과 ***비동기식 처리 모델***</u> 이 존재한다.
 
 
-![image](https://user-images.githubusercontent.com/68471917/112572422-7c98e700-8e2d-11eb-81f0-c3574ed806b8.png)
+<div align="center">
+    <img src="./img/Async.png">
+</div>
 <br><br>
 
 ### 🥇동기식 처리 모델(Synchronous process model)
@@ -16,7 +18,9 @@
 
 예를 들어 서버에서 데이터를 가져와서 화면에 표시하는 작업을 수행할 때,<br>
 서버에 데이터를 요청하고 데이터가 응답될 때까지 이후 태스크들은 **블로킹**(blocking, 작업 중단)된다.<br>
-![https://t1.daumcdn.net/cfile/tistory/99327B375BC7D7832A](https://t1.daumcdn.net/cfile/tistory/99327B375BC7D7832A)
+<div align="center">
+    <img src="./img/Sync_task.png">
+</div>
 
 > 동기식으로 처리되는 코드는, **순차적으로 실행**된다.
 
@@ -32,8 +36,11 @@
 
 이후 서버로부터 데이터가 응답되면 이벤트가 발생하고 이벤트 핸들러가 데이터를 가지고 수행할 태스크를 계속해 수행한다.
 
-![https://t1.daumcdn.net/cfile/tistory/99194A365BC7D8223C](https://t1.daumcdn.net/cfile/tistory/99194A365BC7D8223C)
+<div align="center">
+    <img src="./img/Async_task.png">
+</div>
 <br>
+
 > 비동기식으로 처리되는 코드는, **순차적으로 실행되지 않는다.**
 
 <br>
