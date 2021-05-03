@@ -24,15 +24,15 @@
 - [브라우저와 동작원리](Internet/Browser/Browser.md)<br>
 - [호스팅이란 무엇일까요?](Internet/Hosting/hosting.md)<br>
 ### 동기와 비동기
-- [Callback 함수란 무엇인가?](./Callback/callback.md)<br>
-    - [비동기 프로그래밍이 뭔가요?](./Async/Async.md)<br>
+- [Callback 함수란 무엇인가?](Async/Callback/callback.md)<br>
+    - [비동기 프로그래밍이 뭔가요?](Async/Async/Async.md)<br>
 ### 웹 기본 개념
-- [Parsing이란 무엇인가?](./Parsing/Parsing.md)<br>
-- [DOM이란 무엇인가?](./DOM/DOM.md)<br>
-- [URL과 URI의 차이점을 아시나요?](./URI/uri.md)<br>
-- [인증과 인가란?](./Auth/auth.md)<br>
-    - [Bcrypt](./Auth/Bcrypt.md)<br>
-    - [JWT](./Auth/JWT.md)<br>
-- [REST API가 뭐에요?](./API/REST.md)
+- [Parsing이란 무엇인가?](WEB/Parsing/Parsing.md)<br>
+- [DOM이란 무엇인가?](WEB/DOM/DOM.md)<br>
+- [URL과 URI의 차이점을 아시나요?](WEB/URI/uri.md)<br>
+- [인증과 인가란?](WEB/Auth/auth.md)<br>
+    - [Bcrypt](WEB/Auth/Bcrypt.md)<br>
+    - [JWT](WEB/Auth/JWT.md)<br>
+- [REST API가 뭐에요?](WEB/API/REST.md)
 ### 용어 정리
-- [공부하다가 모르는 단어들](./ETC/ETC.md)
+- [공부하다가 모르는 단어들](ETC/ETC.md)
