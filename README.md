@@ -18,11 +18,11 @@
 
 ---
 ### 인터넷
-- [인터넷은 어떻게 작동될까요?](./Internet/Internet.md)<br>
-- [HTTP는 무엇일까요?](./Internet/http.md)<br>
-- [DNS와 작동원리](./Internet/DNS.md)<br>
-- [브라우저와 동작원리](./Browser/Browser.md)<br>
-- [호스팅이란 무엇일까요?](./Hosting/hosting.md)<br>
+- [인터넷은 어떻게 작동될까요?](Internet/internet/Internet.md)<br>
+- [HTTP는 무엇일까요?](Internet/HTTP/http.md)<br>
+- [DNS와 작동원리](Internet/DNS/DNS.md)<br>
+- [브라우저와 동작원리](Internet/Browser/Browser.md)<br>
+- [호스팅이란 무엇일까요?](Internet/Hosting/hosting.md)<br>
 ### 동기와 비동기
 - [Callback 함수란 무엇인가?](./Callback/callback.md)<br>
     - [비동기 프로그래밍이 뭔가요?](./Async/Async.md)<br>
