@@ -1,6 +1,6 @@
 # RSET API가 뭐에요?
 <div align="center">
-    <img src="rest.png">
+    <img src="img/rest.png">
 </div>
 
 ## 🌈 REST
@@ -18,7 +18,7 @@
 그리고 자원들을 주고 받을 때, 아래 4가지 방법을 기본으로 하여 자원들을 주고받는다.<br>
 
 <div align="center">
-    <img src = "http_method.png">
+    <img src = "img/http_method.png">
 </div>
 
 <br>
