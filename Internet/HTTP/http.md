@@ -55,7 +55,7 @@ e.g.) 웹 브라우저, 핸드폰 어플리케이션 등등
 
 ## Request HTTP 메시지 예시
 ```
-GET https://github.com/songyouhyun HTTP/1.1						  // 시작줄
+GET https://github.com/songyouhyun HTTP/1.1					  // 시작줄
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...			  // 헤더
 Upgrade-Insecure-Requests: 1
 ```
