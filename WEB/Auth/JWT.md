@@ -71,7 +71,7 @@ HTTP는 **Stateless**, 즉 사용자가 새로운 요청을 한다면 과거에 
 ```json
 {
   "alg": "HS256"
-  "typ" "JWT",
+  "typ": "JWT",
 }
 ```
 #### 📍 PAYLOAD(내용)
