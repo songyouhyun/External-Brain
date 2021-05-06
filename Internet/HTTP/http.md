@@ -17,10 +17,10 @@
   **장점 : 수십만명이 웹서비스를 사용(요청)하더라도 최소 유지를 할 수 있기 때문에, 많은 유저의 요청을 처리할 수 있음**
 2. HTTP는 연결을 유지하지 않는 프로토콜이기 때문에 요청/응답 방식으로 동작한다.
 3. HTTP 메시지는 HTTP 서버와 HTTP 클라이언트에 의해 해석이 된다.
-4. [TCP/IP](../ETC/ETC.md###TCP/IP란?)를 이용하는 응용 프로토콜이다.
+4. [TCP/IP](../../ETC/ETC.md#TCP/IP란?)를 이용하는 응용 프로토콜이다.
 
 #### HTTP의 기능(추가)
-1. ***keep-alive*** `HTTP 1.1부터 지원하는 기능`
+1. ***keep-alive*** `HTTP 1.1부터 지원하는 기능`<br>
 방금 언급했듯이 HTTP는 1번의 요청에 대해 1번의 응답 하는 것을 기준으로 설계되었다.<br>
 요즘 웹사이트들을 보면 하나의 페이지에 수십개 이미지, css 파일, js 파일이 있는 것을 볼 수 있다.<br><br>
 
@@ -55,14 +55,14 @@ e.g.) 웹 브라우저, 핸드폰 어플리케이션 등등
 
 ## Request HTTP 메시지 예시
 ```
-GET https://velog.io/@surim014 HTTP/1.1						  // 시작줄
+GET https://github.com/songyouhyun HTTP/1.1						  // 시작줄
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...			  // 헤더
 Upgrade-Insecure-Requests: 1
 ```
 ### 1. 시작줄 (첫 줄)
 첫 줄은 시작줄로 **메서드 구조 버전**으로 구성되었다.
 - GET : HTTP Method
-- https://velog.io/@surim014 : 사이트 주소
+- https://github.com/songyouhyun : 사이트 주소
 - HTTP/1.1 : HTTP 버전
 
 ### 2. 헤더 (두 번째 줄부터)
