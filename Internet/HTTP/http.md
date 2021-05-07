@@ -10,7 +10,7 @@
 보통은 클라이언트가 어떤 정보를 **HTML 형태**로 받고 싶은지, **JSON 형태**로 받고 싶은지 명시해주는 경우가 많다.
 
 ### HTTP 특징
-1. ***[Connectless + Stateless]()***
+1. ***[Connectless + Stateless](./features)***
 2. HTTP는 연결을 유지하지 않는 프로토콜이기 때문에 요청/응답 방식으로 동작한다.
 3. HTTP 메시지는 HTTP 서버와 HTTP 클라이언트에 의해 해석이 된다.
 4. [TCP/IP](../../ETC/ETC.md#tcpip란)를 이용하는 응용 프로토콜이다.
