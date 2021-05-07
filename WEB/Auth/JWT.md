@@ -5,7 +5,7 @@
 
 ### 1️⃣ JWT 개념
 > **Json Web Token**의 약자로,
-> Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 [Claim](../../ETC/ETC.md#Claim이란?) 기반의 Web Token이다.
+> Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 [Claim](../../ETC/ETC.md#claim이란) 기반의 Web Token이다.
 
 일반적으로 클라이언트와 서버, 서비스와 서비스 사이 통신 시 권한 인가(Authorization)를 위해 사용하는 토큰을 뜻합니다.
 
