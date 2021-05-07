@@ -26,7 +26,7 @@ HTTP는 **Stateless**(무결성상태), 즉 사용자가 새로운 요청을 한
 
 이 문제를 해결하기 위해서 예전에는 로그인 할 때 DB에 누가 로그인했는지 기록해야 했습니다.<br><br>
 
-그래서 나온게 **[쿠키](../Save_Method/Cookie.md)**와 **[세션](../Save_Method/Session.md)**이였는데, 쿠키와 세션에는 각각 문제점들이 있었습니다.<br>
+그래서 나온게 **[쿠키](../Save_Method/Cookie.md)** 와 **[세션](../Save_Method/Session.md)** 이였는데, 쿠키와 세션에는 각각 문제점들이 있었습니다.<br>
 
 
 
