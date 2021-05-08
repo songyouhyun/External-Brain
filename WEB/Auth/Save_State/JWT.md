@@ -1,11 +1,11 @@
 # 🗝 JWT
 <div align="center">
-    <img src="./img/cover.png">
+    <img src="../img/cover.png">
 </div>
 
 ### 1️⃣ JWT 개념
 > **Json Web Token**의 약자로,
-> Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 [Claim](../../ETC/ETC.md#claim이란) 기반의 Web Token이다.
+> Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 [Claim](../../../ETC/ETC.md#claim이란) 기반의 Web Token이다.
 
 일반적으로 클라이언트와 서버, 서비스와 서비스 사이 통신 시 권한 인가(Authorization)를 위해 사용하는 토큰을 뜻합니다.
 
@@ -14,7 +14,7 @@
 ### 2️⃣ JWT 등장배경
 시작하기에 앞서, 인증 로직에 대해서 봐보도록 합시다.
 <div align="center">
-    <img src="./img/t_1.png">
+    <img src="../img/t_1.png">
 </div>
 <br>
 
@@ -33,7 +33,7 @@ HTTP는 **Stateless**(무결성상태), 즉 사용자가 새로운 요청을 한
 그리고 이를 보완하기 위해서 토큰 기반의 인증방식을 사용하는 추세인데요.<br>
 토큰 기반 인증방식의 로직은 이렇습니다.
 <div align="center">
-    <img src="./img/t_2.png">
+    <img src="../img/t_2.png">
 </div>
 <br>
 
@@ -57,10 +57,10 @@ HTTP는 **Stateless**(무결성상태), 즉 사용자가 새로운 요청을 한
 
 ### 3️⃣ JWT 구조
 <div align="center">
-    <img src="./img/jwt.png">
+    <img src="../img/jwt.png">
 </div>
 
-> JWT는 ***Header, Payload, Signature***의 3 부분으로 이루어지며, Json 형태인 각 부분은 **Base64**로 [인코딩](../../ETC/ETC.md#인코딩이란) 되어 표현된다.
+> JWT는 ***Header, Payload, Signature***의 3 부분으로 이루어지며, Json 형태인 각 부분은 **Base64**로 [인코딩](../../../ETC/ETC.md#인코딩이란) 되어 표현된다.
 
 
 #### 📍 HEADER(헤더)
@@ -70,13 +70,14 @@ HTTP는 **Stateless**(무결성상태), 즉 사용자가 새로운 요청을 한
 
 
 #### 📍 PAYLOAD(내용)
-- **Payload**에는 사용자 인증 관련 정보, 즉 토큰에 담을 [클레임(claim)](../../ETC/ETC.md#claim이란) 정보를 포함하고 있다.
+- **Payload**에는 사용자 인증 관련 정보, 즉 토큰에 담을 [클레임(claim)](../../../ETC/ETC.md#claim이란) 정보를 포함하고 있다.
 - 수정이 가능하여 더 많은 정보를 추가해둘 수도 있다.
 
 > ⚠️ ***주의!*** 이 곳은 노출과 수정이 가능한 지점이기에 **인증이 필요한 최소한의 정보**만 담아야한다
 
 **인증에 필요한 최소한의 정보**란 아이디, 비밀번호, 개인정보 등이 아니라,<br>
 이 토큰을 가졌을 때 권한의 범위, 토큰의 발급일과 만료일자 등을 의미한다.
+
 
 
 

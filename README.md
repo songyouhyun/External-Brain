@@ -32,7 +32,9 @@
 - [URL과 URI의 차이점을 아시나요?](WEB/URI/uri.md)<br>
 - [인증과 인가란?](WEB/Auth/auth.md)<br>
     - [Bcrypt](WEB/Auth/Bcrypt.md)<br>
-    - [JWT](WEB/Auth/JWT.md)<br>
+- [JWT](WEB/Auth/Save_State/JWT.md)<br>
+- [Cookie](WEB/Auth/Save_State/Cookie.md)<br>
+- [Session](WEB/Auth/Save_State/Session.md)<br>
 - [REST API가 뭐에요?](WEB/API/REST.md)
 ### 용어 정리
 - [공부하다가 모르는 단어들](ETC/ETC.md)
