@@ -37,9 +37,8 @@
 - [URL과 URI의 차이점을 아시나요?](WEB/URI/uri.md)<br>
 - [인증과 인가란?](WEB/Auth/auth.md)<br>
     - [Bcrypt](WEB/Auth/Bcrypt.md)<br>
-- [JWT](WEB/Auth/Save_State/JWT.md)<br>
-- [Cookie](WEB/Auth/Save_State/Cookie.md)<br>
-- [Session](WEB/Auth/Save_State/Session.md)<br>
+- [Cookie와 Session이라는 말을 들어보셨나요?](WEB/Auth/Save_State/Cookie.md)<br>
+- [JWT란?](WEB/Auth/Save_State/JWT.md)<br>
 - [REST API가 뭐에요?](WEB/API/REST.md)
 ### Git
 - [Git 명령어](Git/git_command.md)
