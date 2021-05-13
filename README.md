@@ -14,6 +14,7 @@
 - 폴더와 파일명은 영어로 작성한다.
 - 내가 봐서 이해가 되는게 아닌, 남에게 이해를 시켜주는 것을 목표로 작성한다.
 - 중복되는 내용은 작성하지 않는다.
+- 내가 아는 만큼만 작성하기(나도 모르는 내용을 적진 않는다.)
 <br>
 
 이 글의 정보에 대한 **오류**나 **피드백**은 항상 받고 있습니다!<br>
@@ -40,5 +41,7 @@
 - [Cookie](WEB/Auth/Save_State/Cookie.md)<br>
 - [Session](WEB/Auth/Save_State/Session.md)<br>
 - [REST API가 뭐에요?](WEB/API/REST.md)
+### Git
+- [Git 명령어](Git/git_command.md)
 ### 용어 정리
 - [공부하다가 모르는 단어들](ETC/ETC.md)
