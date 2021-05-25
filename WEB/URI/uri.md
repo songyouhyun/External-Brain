@@ -1,6 +1,6 @@
 # URI & URL & URN
 
-<img src="uri.png">
+<img src="./img/uri.png">
 
 ## 🎯 URI이란?
 > ***Uniform Resource Identifier***의 약자이다.
