@@ -50,3 +50,5 @@
 - 종류로는 **ASCII , URL , HTML , Base64 , MS Script** 인코딩이 있다
 ### E2E Test(End To End Test)란?
 - Endpoint(종단) 간 테스트로 사용자의 입장에서 사용자가 사용하는 상황을 가정하고 테스트 하는 것을 의미
+### `@`데코레이터(Decorator)란?
+- 데코레이터는 클래스에 함수 기능을 추가할 수 있게 한다.
