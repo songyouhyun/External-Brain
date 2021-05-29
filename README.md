@@ -23,23 +23,26 @@
 
 ---
 ### 인터넷
-- [인터넷은 어떻게 작동될까요?](Internet/internet/Internet.md)<br>
-- [HTTP는 무엇일까요?](Internet/HTTP/http.md)<br>
-- [DNS와 작동원리](Internet/DNS/DNS.md)<br>
-- [브라우저와 동작원리](Internet/Browser/Browser.md)<br>
-- [호스팅이란 무엇일까요?](Internet/Hosting/hosting.md)<br>
+- [인터넷은 어떻게 작동될까요?](Internet/internet/Internet.md)
+- [HTTP는 무엇일까요?](Internet/HTTP/http.md)
+- [DNS와 작동원리](Internet/DNS/DNS.md)
+- [브라우저와 동작원리](Internet/Browser/Browser.md)
+- [호스팅이란 무엇일까요?](Internet/Hosting/hosting.md)
 ### 동기와 비동기
-- [Callback 함수란 무엇인가?](Async/Async/Callback/callback.md)<br>
-    - [비동기 프로그래밍이 뭔가요?](Async/Async/Async.md)<br>
+- [Callback 함수란 무엇인가?](Async/Async/Callback/callback.md)
+    - [비동기 프로그래밍이 뭔가요?](Async/Async/Async.md)
 ### 웹 기본 개념
-- [Parsing이란 무엇인가?](WEB/Parsing/Parsing.md)<br>
-- [DOM이란 무엇인가?](WEB/DOM/DOM.md)<br>
-- [URL과 URI의 차이점을 아시나요?](WEB/URI/uri.md)<br>
-- [인증과 인가란?](WEB/Auth/auth.md)<br>
-    - [Bcrypt](WEB/Auth/Bcrypt.md)<br>
-- [Cookie와 Session이라는 말을 들어보셨나요?](WEB/Auth/Save_State/Cookie_Session.md)<br>
-- [JWT란?](WEB/Auth/Save_State/JWT.md)<br>
+- [Parsing이란 무엇인가?](WEB/Parsing/Parsing.md)
+- [DOM이란 무엇인가?](WEB/DOM/DOM.md)
+- [URL과 URI의 차이점을 아시나요?](WEB/URI/uri.md)
+- [인증과 인가란?](WEB/Auth/auth.md)
+    - [Bcrypt](WEB/Auth/Bcrypt.md)
+- [Cookie와 Session](WEB/Auth/Save_State/Cookie_Session.md)
+- [JWT란?](WEB/Auth/Save_State/JWT.md)
 - [REST API가 뭐에요?](WEB/API/REST.md)
+### 언어(Language)
+- [TypeScript란 무엇인가?](Language/TypeScript/typescript.md)
+- [컴파일러와 인터프리터의 차이](Language/Translation/ITP_CMP.md)
 ### Git
 - [Git 명령어](Git/git_command.md)
 ### 용어 정리
