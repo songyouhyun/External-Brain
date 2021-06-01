@@ -40,5 +40,6 @@
 - [컴파일러와 인터프리터의 차이](Language/Translation/ITP_CMP.md)
 ### Git
 - [Git 명령어](Git/git_command.md)
-### 용어 정리
+### ETC
 - [공부하다가 모르는 단어들](ETC/ETC.md)
+- [npm이란?](ETC/npm/npm.md)
