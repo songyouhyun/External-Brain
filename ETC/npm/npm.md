@@ -31,3 +31,10 @@ npm은 세계 최대 규모의 패키지들을 보유하고 있습니다.<br>
 - React - yarn
 - PHP - Composer
 - Node.js - npm
+
+## 🎮 패키치 설치 명령 옵션
+|npm i 옵션|의미|단축 명령|
+|:---:|---|:---:|
+|--save|프로젝트를 실행할 때 필요한 패키지로 설치합니다. 패키지 정보가 package.json 파일의 'dependencies'항목에 등록됩니다.|-s|
+|--save-dev|프로젝트를 개발할 때만 필요한 패키지로 설치합니다. 패키지 정보가 package.json 파일의 'devDependencies' 항목에 등록됩니다.|-d|
+|--global|내 로컬 컴퓨터 전역에 필요한 패키지로 설치합니다.|-g|
