@@ -38,7 +38,7 @@
 ### 언어(Language)
 - [TypeScript란 무엇인가?](Language/TypeScript/typescript.md)
 - [컴파일러와 인터프리터의 차이](Language/Translation/ITP_CMP.md)
-- [접근 제어자란?](Language/Java/Access_Controller)
+- [접근 제어자란?](Language/Java/Access_Controller.md)
 ### Git
 - [Git 명령어](Git/git_command.md)
 ### ETC
