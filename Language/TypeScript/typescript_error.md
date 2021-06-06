@@ -63,7 +63,7 @@ class User {
     private password2: string | undefined;
 }
 ```
-password가 undefined여서 생기는 에러가 아니라고 확신한다면, 속성 이름 뒤에 뱅 기호(!)를 붙여 확정적 할당 단언을 제공할 수 있다.
+password가 undefined여서 생기는 에러가 아니라고 확신한다면, 속성 이름 뒤에 뱅 기호(!)를 붙여 확정적 할당 단언을 제공할 수 있다.<br>
 즉 `password: T`를 `password!: T`로 변경한다. 이 경우 컴파일러는 password의 초기화 체크를 건너뛴다.
 
 # 📘 해결책 3
