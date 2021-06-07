@@ -40,8 +40,8 @@ password는 속성 선언에서도, 생성자에서도 초기화되지 않고 �
 이 값은 string 타입이 아니므로 타입 에러가 발생하는 것이 당연하다.
 <br><br>
 
-# 📕 해결책 1
-**tsconfig.json에 아래 명렁어를 추가**
+## 📕 해결책 1
+***플래그 설정***
 ```json
 {
     "compilerOptions" : {
@@ -50,23 +50,42 @@ password는 속성 선언에서도, 생성자에서도 초기화되지 않고 �
     }
 }
 ```
-    
-사실 난 이 해결책보다는 아래의 해결책을 추천한다.
+**tsconfig.json**에 `compilerOptions`에 위의 명렁어를 추가한다.
+난 이 해결책보다는 아래의 해결책들을 추천한다.
 <br><br>
 
-# 📗 해결책 2
-**선택 속성 또는 확정적 할당 단언을 제공**
+## 📗 해결책 2
+***선택 속성***
+실제 상황을 정확히 반영하기 위해 password을 선택 속성으로 선언한다.
 ```TypeScript
 class User {
-    // 실제 상황을 정확히 반영하기 위해 password을 선택 속성으로 선언한다.
     private password?: string;
+}
+```
+`? = Optional`<br><br>
+사실 위 코드도 옳은 코드는 아니다.
+클래스 내부에서 속성에 쓰기에는 적합하지 않다는 말이다.
+
+```typescript
+function Human(name: string, age: number, phone?:string)
+```
+이러한 선택 속성은 위 코드와 같이 parameter에 값이 있을수도 있고, 없을수도 있는 Optional한 값인 경우에 사용하면 좋다.
+
+
+## 📒 해결책 3
+***확정적 할당 단언 부여***
+password가 undefined여서 생기는 에러가 아니라고 확신한다면, 속성 이름 뒤에 뱅 기호(!)를 붙여 **확정적 할당 단언**을 제공할 수 있다.
+```typescript
+class User{
+    private password!: string;
     // or
     private password2: string | undefined;
 }
 ```
-password가 undefined여서 생기는 에러가 아니라고 확신한다면, 속성 이름 뒤에 뱅 기호(!)를 붙여 확정적 할당 단언을 제공할 수 있다.<br><br>
-즉 `password: T`를 `password!: T`로 변경한다. 이 경우 컴파일러는 password의 초기화 체크를 건너뛴다.
+`! = Nullable`<br><br>
+뱅 기호(!)를 붙이면 null과 undefined를 허용하게 된다.<br>
+이 경우 컴파일러는 password의 초기화 체크를 건너뛴다. 즉, 초기화를 하지 않아도 된다.
 <br><br>
 
-# 📘 해결책 3
+## 📘 해결책 4
 플래그를 설정하고, 코드를 바꾸는 것으로 충분하지 않은 경우 일시적 TypeScript의 버전을 2.6으로 다운그레이드 하고 오류가 지속되는지 확인바랍니당.
