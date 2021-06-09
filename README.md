@@ -1,5 +1,9 @@
 # 🧠[External-Brain]🧠
 `2021.03.25 ~ ing`
+<div align="center">
+    <img src="https://t1.daumcdn.net/liveboard/ppss/425ad335c5894bcab1a11c4a96577782.JPG">
+</div>
+
 ## 🙋🏻‍♂️External-Brain이 무엇인가요?
 > External Brain은 `외부 뇌`라는 의미로, **저의 뇌역할을 대신하는 공간입니다.**<br>
 <br>
