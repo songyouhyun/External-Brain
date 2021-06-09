@@ -24,8 +24,10 @@
 - [DNS와 작동원리](Internet/DNS/DNS.md)
 - [브라우저와 동작원리](Internet/Browser/Browser.md)
 - [호스팅이란 무엇일까요?](Internet/Hosting/hosting.md)
+
 ### 🚃 동기와 비동기
 - [비동기 프로그래밍이 뭔가요?](Async/Async.md)
+
 ### 📖 웹 기본 개념
 - [Parsing이란 무엇인가?](WEB/Parsing/Parsing.md)
 - [DOM이란 무엇인가?](WEB/DOM/DOM.md)
@@ -35,15 +37,22 @@
 - [Cookie와 Session](WEB/Auth/Save_State/Cookie_Session.md)
 - [JWT란?](WEB/Auth/Save_State/JWT.md)
 - [REST API가 뭐에요?](WEB/API/REST.md)
+
 ### 🗣 언어(Language)
+#### 📌 OOP
+- [객체 지향 언어(OOP)란?](Language/OOP/OOP.md)
+- [캡슐화란?](Language/OOP/Encapsulation.md)
+- [선언 위치에 따른 변수의 종류](Language/OOP/variable.md)
 #### 📌 TypeScript
 - [TypeScript란 무엇인가?](Language/TypeScript/typescript.md)
 - [TypeScript에서 종종 일어나는 에러](Language/TypeScript/typescript_error.md)
-- [캡슐화란?](Language/TypeScript/Encapsulation.md)
 #### 📌 JavaScript
-- [Callback이란?]()
+- [Callback이란?](Language/JavaScript/callback.md)
+- [Scope란?](Language/JavaScript/scope.md)
+
 ### 🏳 Git
 - [Git 명령어](Git/git_command.md)
+
 ### 👀 ETC
 - [npm이란?](ETC/npm/npm.md)
 - [컴파일러와 인터프리터의 차이](ETC/Translation/ITP_CMP.md)
