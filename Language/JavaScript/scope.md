@@ -33,9 +33,9 @@ const name = "나선욱"
 
 function Person(){
     const name = "박봉팔";
-    console.log(name);  // 결과 값 : 박봉팔
+    console.log(name);
 }
-
+Person();               // 결과 값 : 박봉팔
 console.log(name);      // 결과 값 : 나선욱
 ```
 
