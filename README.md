@@ -50,6 +50,7 @@
 #### 📌 TypeScript
 - [TypeScript란 무엇인가?](Language/TypeScript/typescript.md)
 - [TypeScript에서 종종 일어나는 에러](Language/TypeScript/typescript_error.md)
+- [NestJS 구조 파헤치기!!](Language/TypeScript/Nest/Nest.md)
 #### 📌 JavaScript
 - [Callback이란?](Language/JavaScript/callback.md)
 - [Scope란?](Language/JavaScript/scope.md)
