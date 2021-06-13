@@ -42,6 +42,9 @@
 - [JWT란?](WEB/Auth/Save_State/JWT.md)
 - [REST API가 뭐에요?](WEB/API/REST.md)
 
+### 📦 DataBase
+- [SQL](DB/sql.md)
+
 ### 🗣 언어(Language)
 #### 📌 OOP
 - [객체 지향 언어(OOP)란?](Language/OOP/OOP.md)
@@ -62,3 +65,4 @@
 - [npm이란?](ETC/npm/npm.md)
 - [컴파일러와 인터프리터의 차이](ETC/Translation/ITP_CMP.md)
 - [공부하다가 모르는 단어들](ETC/word.md)
+- [소프트웨어 테스트 기법](ETC/test.md)
