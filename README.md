@@ -48,9 +48,7 @@
 
 ### 🗣 언어(Language)
 #### 📌 OOP
-- [객체 지향 언어(OOP)란?](Language/OOP/OOP.md)
 - [캡슐화란?](Language/OOP/Encapsulation.md)
-- [선언 위치에 따른 변수의 종류](Language/OOP/variable.md)
 #### 📌 TypeScript
 - [TypeScript란 무엇인가?](Language/TypeScript/typescript.md)
 - [TypeScript에서 종종 일어나는 에러](Language/TypeScript/typescript_error.md)
