@@ -45,6 +45,7 @@
 ### 📦 DataBase
 - [SQL](DB/sql.md)
 - [데이터베이스 참조시 우려해야할 일](DB/careful.md)
+- [How to install PostgreSQL?](DB/postgresql_install.md)
 
 ### 🗣 언어(Language)
 #### 📌 OOP
