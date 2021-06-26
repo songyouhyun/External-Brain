@@ -3,7 +3,7 @@
 
 <br>
 
-### PostgreSQL install
+## PostgreSQL install
 
 ```shell
 $ brew search postgresql
@@ -19,7 +19,7 @@ brew install postgresql
 ```
 <br>
 
-### Install confirm
+## Install confirm
 ```
 postgres --version
 ```
@@ -32,7 +32,7 @@ postgres -V
 <img src="./img/postgresql_version.png">
 <br>
 
-### Postgresql Start
+## Postgresql Start
 설치된게 확인이 되었다고 해서, 무턱대고 DB명령어를 입력하면 에러가 날 것이다.
 postgresql의 server를 켜야한다.
 
