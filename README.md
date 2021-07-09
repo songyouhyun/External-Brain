@@ -61,8 +61,11 @@
 ### 🏳 Git
 - [Git 명령어](Git/git_command.md)
 
+### NPM
+- [npm이란?](Npm/npm.md)
+- [package.json 과 package-lock.json의 차이를 아시나요?]()
+
 ### 👀 ETC
-- [npm이란?](ETC/npm/npm.md)
 - [컴파일러와 인터프리터의 차이](ETC/Translation/ITP_CMP.md)
 - [공부하다가 모르는 단어들](ETC/word.md)
 - [소프트웨어 테스트 기법](ETC/test.md)
