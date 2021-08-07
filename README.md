@@ -59,10 +59,11 @@
 - [Scope란?](Language/JavaScript/scope.md)
 
 ### 🐳 Docker
-- [Docker란?](https://summer-hedgehog-712.notion.site/Docker-26c5f65202a84a43a314f8349824c9f1)
+- [Docker란?](https://summer-hedgehog-712.notion.site/Docker-26c5f65202a84a43a314f8349824c9f1) (notion)
 
 ### 🏳 Git
 - [Git 명령어](Git/git_command.md)
+- [Git commitizen](https://summer-hedgehog-712.notion.site/Git-commitizen-72f5f2728d3a4311a2f8952f6d890316) (notion)
 
 ### NPM
 - [npm이란?](Npm/npm.md)
