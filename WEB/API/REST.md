@@ -53,7 +53,7 @@ API가 RESTful로 간주되려면 다음 기준을 따라야 합니다.<br>
 <br>
 
 3. ***Cacheable***(캐시 처리 가능)
-    * 웹 표준 HTTP 프로토콜을 그대로 사용하므로 웹에서 사용하는 기존의 [인프라](https://github.com/songyouhyun/TIL/blob/master/ETC/ETC.md#%EC%9D%B8%ED%94%84%EB%9D%BC%EB%9E%80infrastructure)를 그대로 활용할 수 있다.
+    * 웹 표준 HTTP 프로토콜을 그대로 사용하므로 웹에서 사용하는 기존의 [인프라](../../ETC/word.md#인프라란infrastructure)를 그대로 활용할 수 있다.
         * HTTP가 가진 가장 강력한 특징 중 하나인 캐싱 기능을 적용할 수 있다.
         * HTTP 프로토콜 표준에서 사용하는 Last-Modified 태그나 E-Tag를 이용하면 캐싱 구현이 가능하다.
     * 대량의 요청을 효율적으로 처리하기 위해 캐시가 요구된다.
