@@ -48,7 +48,7 @@
 - [데이터베이스 참조시 우려해야할 일](DB/careful.md)
 - [How to install PostgreSQL?](DB/postgresql_install.md)
 
-### 🗣 언어(Language)
+### 🗣 언어
 #### 📌 OOP
 - [캡슐화란?](Language/OOP/Encapsulation.md)
 #### 📌 TypeScript
@@ -60,11 +60,11 @@
 - [Scope란?](Language/JavaScript/scope.md)
 
 ### 🐳 Docker
-- [Docker란?](https://summer-hedgehog-712.notion.site/Docker-26c5f65202a84a43a314f8349824c9f1) (notion)
+- [Docker란?](https://songyuhyun.notion.site/Docker-26c5f65202a84a43a314f8349824c9f1) (notion)
 
 ### 🏳 Git
 - [Git 명령어](Git/git_command.md)
-- [Git commitizen](https://summer-hedgehog-712.notion.site/Git-commitizen-72f5f2728d3a4311a2f8952f6d890316) (notion)
+- [Git commitizen](Git/commitizen.md)
 
 ### ❤️‍🔥 NPM
 - [npm이란?](Npm/npm.md)
@@ -74,5 +74,7 @@
 - [컴파일러와 인터프리터의 차이](ETC/Translation/ITP_CMP.md)
 - [공부하다가 모르는 단어들](ETC/word.md)
 - [소프트웨어 테스트 기법](ETC/test.md)
+---
 
-### 🔮 [자문자답 해결소](./Solution/README.md)
+## 😶‍🌫️ 코너 속에 코너...
+#### 🔮 [자문자답 연구소](./Solution/README.md)
