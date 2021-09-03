@@ -42,7 +42,7 @@
 - [JWT란?](WEB/Auth/Save_State/JWT.md)
 - [REST API가 뭐에요?](WEB/API/REST.md)
 - [Guard란?](WEB/Guard/guard.md)
-- [SPA란?](WEB/spa.md)
+- [SPA란?](WEB/SPA/spa.md)
 
 ### 📦 DataBase
 - [SQL](DB/sql.md)
